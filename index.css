@@ -4,7 +4,6 @@
     font-weight: 400;
     src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
 }
-
 @font-face {
     font-family: 'Jost';
     font-style: normal;
@@ -17,6 +16,7 @@
     padding: 0;
     box-sizing: inherit;
 }
+
 
 :root {
     --font-size-small: 1.8rem;
@@ -51,7 +51,7 @@
 }
 
 html {
-    font-size: 62.5%; /* (16/10)*100 = 62.5% => 1rem = 10px */
+    font-size: 62.5%;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -110,9 +110,7 @@ img {
     object-fit: contain;
     max-width: 100%;
 }
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
@@ -282,9 +280,6 @@ body:not(.user-is-tabbing) a:focus {
     padding-left: 1rem;
     font-family: sans-serif;
 }
-
-/* ----- Back to Top ----- */
-
 .back-to-top {
     position: fixed;
     bottom: 4rem;
@@ -298,7 +293,7 @@ body:not(.user-is-tabbing) a:focus {
     border-radius: 50%;
     z-index: 10;
     visibility: hidden;
-    transition: all .4s;
+    transition: all 0.4s;
 }
 
 .back-to-top__image {
@@ -443,7 +438,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__list {
-    /* list-style-type: square; */
+    list-style-type: square; 
     list-style-position: inside;
     margin-bottom: var(--gutter-normal);
 }
@@ -475,7 +470,7 @@ body:not(.user-is-tabbing) a:focus {
         height: 4rem;
     }
 }
-.client__logos {
+/* .client__logos {
     display: flex;
     justify-content: space-between;
     filter: invert(100%) grayscale(100%) opacity(.8);
@@ -495,7 +490,7 @@ body:not(.user-is-tabbing) a:focus {
     .client__logo:not(:last-of-type) {
         margin-right: var(--gutter-medium);
     }
-}
+} */
 .about__content {
     display: flex;
     flex-direction: row-reverse;
@@ -562,4 +557,8 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+}
+.heart{
+    width: 12px;
+    
 }
