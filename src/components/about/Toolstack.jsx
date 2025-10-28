@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import macOs from "../../Assets/TechIcons/Apple MacOSX.svg";
-import chrome from "../../Assets/TechIcons/Google Chrome.svg";
-import vsCode from "../../Assets/TechIcons/vscode.svg";
+import macOs from "../../assets/TechIcons/Apple MacOSX.svg";
+import chrome from "../../assets/TechIcons/Google Chrome.svg";
+import vsCode from "../../assets/TechIcons/vscode.svg";
 
 function Toolstack() {
   return (
