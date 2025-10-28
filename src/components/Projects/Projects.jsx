@@ -1,14 +1,13 @@
 
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-// TODO: After uploading your project images, import them here:
-import parkingImg from "../../Assets/Projects/parking.png"; // Parking Management System
-import swasthyaImg from "../../Assets/Projects/swasthya.png"; // Swasthya Vedha
-import driveImg from "../../Assets/Projects/drive.png"; // Drive Project
-import chatImg from "../../Assets/Projects/chat.png"; // Real-time Chatting App
+
+import parkingImg from "../../assets/Projects/parking.png";
+import swasthyaImg from "../../assets/Projects/swasthya.png";
+import driveImg from "../../assets/Projects/drive.png";
+import chatImg from "../../assets/Projects/chat.png";
 
 function Projects() {
   return (
